@@ -1,0 +1,19 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "build",
+      "type": "shell",
+      "command": "gfortran",
+      "args":[
+        "-o",
+        "th",
+        "th.f90",
+        "io.f90",
+        "parameters.f90",
+        "solver.f90"
+      ],
+      "group": "build"
+    }
+  ]
+}
